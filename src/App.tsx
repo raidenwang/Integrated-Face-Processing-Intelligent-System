@@ -17,9 +17,7 @@ const App: React.FC = () => {
         <Image src={logo} alt="Logo" className="app-logo" preview={false} />
         <h1 className="app-title">智能图像处理系统</h1>
         <p className="app-description">
-          欢迎使用智能图像处理系统！我们的应用提供多项先进的图像处理功能，包括人脸检测、图像修复、美肤增强、表情识别以及活体检测等。点击下方按钮开始体验。
-        </p>
-        <Button type="primary" size="large" className="app-start-button" onClick={handleStart}>
+          欢迎使用智能图像处理系统（version 1.0）！我们的应用提供多项先进的图像处理功能，包括人脸检测、图像修复、美肤增强、表情识别以及活体检测等。点击下方按钮开始体验。        </p>        <Button type="primary" size="large" className="app-start-button" onClick={handleStart}>
           开始体验
         </Button>
       </div>
